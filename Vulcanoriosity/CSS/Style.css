@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Lora', serif;
+    }
+
+h1{
+    font-size: 100px;
+    background-color:#2e0d0a;
+    color:white;
+}
+
+h3{
+    background-color: #3b1612;
+    color:white;
+
+}
+
+h2{
+    background-color: #3b1612;
+    color:white;
+
+}
+
+body{
+    background-color: #732a15;
+    color:white;
+
+}
+
+.info{
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    background-color: #5e120a;
+    color:white;
+
+}
+.trabaja{
+    font-size: 30px;
+    color:white;
+
+}
