@@ -1,22 +1,32 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <link rel="stylesheet" href="CSS/Style.css">
-    </head>
-    <body>
+
+<head>
+    <link rel="stylesheet" href="CSS/Style.css">
+</head>
+
+<body>
+    <div class="sticky">
         <header>
-            <div class="sticky">
-            <center><a href="MainScreen.html"><h1>Vulcanoriosity</h1></a></center>
-            <center><h3>Correo: volcanoriosity@mail.com<br>   Contacto: 9678653434</h3></center>
-            <center><h2>Clica a tu interés</h2></center>
-            </div>
+            <a href="MainScreen.html">
+                <h1>Vulcanoriosity</h1>
+            </a>
+            <h3>Correo: volcanoriosity@mail.com<br> Contacto: 9678653434</h3>
+            <h2>Trabaja con nosotros!</h2>
         </header>
-        <form method="get">
-            <p>Nombre y apellidos: <input type="text" name= "NombreYApellidos"/></p>
-            <p>Teléfono: <input type="text" name= "Telefono"/></p>
-            <p>Ciudad: <input type="text" name= "Ciudad"/></p>
-            <p>Háblanos sobre ti: <input type="text" name= "Háblanos sobre ti"/></p>
-            <a class = "form_submit" href="CSS/Style.css"><input type="submit" value="Enviar este formulario" /></a>
-        </form>
-    </body>
+    </div>
+
+    <div class="flex_container">
+        <div class="form">
+            <form method="get">
+                <p>Nombre y apellidos: <input type="text" name="NombreYApellidos" /></p>
+                <p>Teléfono: <input type="text" name="Telefono" /></p>
+                <p>Ciudad: <input type="text" name="Ciudad" /></p>
+                <p>Háblanos sobre ti: <input type="text" name="Háblanos sobre ti" /></p>
+                <a class="form_submit" href="CSS/Style.css"><input type="submit" value="Enviar este formulario" /></a>
+            </form>
+        </div>
+    </div>
+</body>
+
 </html>
